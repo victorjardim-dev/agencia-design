@@ -1,0 +1,59 @@
+.secao-experiencias {
+    padding: 120px 100px;
+    background-color: #f6f8fc;
+    text-align: center;
+}
+
+.secao-experiencias .subtitulo-descricao h2 {  
+    font-size: 50px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #32333c;
+}
+
+.secao-experiencias .subtitulo-descricao h2::before {  
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    background-color: #feb633;
+}
+
+.secao-experiencias .subtitulo-descricao p {
+    padding: 40px 0;
+    color: #8a8fa3;
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media (max-width: 1400px) {
+    .secao-experiencias .subtitulo-descricao p {
+        width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .secao-experiencias{
+        padding: 120px 20px;
+        background-color: #f6f8fc;
+        text-align: center;
+    }
+    .secao-experiencias .subtitulo-descricao p {
+        width: 100%;
+    }
+}
+
+/* DARK MODE SECAO EXPERIENCIAS */
+
+.secao-experiencias.dark-mode {
+    background-color: #393838;
+}
+
+.secao-experiencias .subtitulo-descricao h2.dark-mode,
+.secao-experiencias .subtitulo-descricao p.dark-mode {
+    color: #ccc;
+}

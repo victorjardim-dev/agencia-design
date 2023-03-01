@@ -1,0 +1,64 @@
+.secao-banner {
+    height: 95vh;
+    width: 100%;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/banner.png');
+    background-size: contain;
+    background-position: left center;
+    position: relative;
+}
+
+.secao-banner .secao-banner-texto {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #fafbfc;
+    color: #022144;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+
+.secao-banner .secao-banner-texto p {
+    font-size: 14px;
+    letter-spacing: .35em;
+    font-weight: 500;
+}
+
+.secao-banner .secao-banner-texto h2 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.secao-banner .secao-banner-texto span {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+@media (max-width: 1400px) {
+    .secao-banner{
+        background-position: -170px center;
+    }
+}
+
+@media (max-width: 1000px) {
+    .secao-banner{
+        background: none;
+    }
+    .secao-banner .secao-banner-texto {
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+}
+
+/* DARK MODE TOPO SECAO BANNER */
+
+.secao-banner.dark-mode {
+    background-color: #252525;
+}

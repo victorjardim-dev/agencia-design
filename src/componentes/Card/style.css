@@ -1,0 +1,68 @@
+.secao-experiencias .cards {
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid #edecec;
+    max-width: 1000px;
+    width: 100%;
+    text-align: left;
+}
+
+.secao-experiencias .card-item {
+    flex: 1;
+    padding: 60px 20px;
+    background-color: #f6f8fc;
+}
+
+.secao-experiencias .card-item:not(:last-of-type) {
+    border-right: 1px solid #edecec;
+}
+
+.secao-experiencias .card-item p {
+    color: #8a8fa3;
+    line-height: 1.5;
+}
+
+.secao-experiencias .card-item h3 {
+    color: #32333c;
+    font-size: 24px;
+    margin: 4px 0;
+}
+
+.secao-experiencias .card-item p:nth-of-type(2) {
+    margin-bottom: 24px;
+}
+
+.secao-experiencias .card-item p:last-of-type {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.secao-experiencias .cards .card-item:hover {
+    background-color: #feb633;
+    border-color: #edecec;
+}
+
+@media (max-width: 1000px) {
+    .secao-experiencias .cards {
+        flex-direction: column;
+    }
+}
+
+/* DARK MODE CARD */
+
+.secao-experiencias .cards .card-item.dark-mode {
+    background-color: #393838;
+    border-color: #ffffff0d;
+}
+
+.secao-experiencias .card-item.cards.dark-mode:not(:last-of-type) {
+    border-color: #ffffff0d;
+}
+
+.secao-experiencias .card-item p.dark-mode {
+    color: #9f9f9f;
+}
+
+.secao-experiencias .card-item h3.dark-mode {
+    color: #fff;
+}

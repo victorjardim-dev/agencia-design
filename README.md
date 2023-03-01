@@ -1,6 +1,6 @@
 # Projeto Agência de Design feito com React JS
 
-Meu primeiro projeto feito em React JS, onde pude colocar em pratica a criação de componentes, stateHook e a utilização de props.
+Meu primeiro projeto feito em React JS, onde pude colocar em prática a utilização de componentes, stateHook e props.
 
 Veja ele online em:
 
